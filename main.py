@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 # --- 1. CONFIGURACIÓN DE LA BASE DE DATOS ---
 # IMPORTANTE: Cambia TU_CONTRASEÑA por la contraseña real de postgres
-URL_BASE_DATOS = "postgresql://postgres:Chevrolets10@localhost:5432/fruteria_db"
+URL_BASE_DATOS = "postgresql+psycopg2://neondb_owner:npg_x0MisXCT7IwP@ep-round-star-at2w5ohu.c-9.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 engine = create_engine(
     URL_BASE_DATOS, 
