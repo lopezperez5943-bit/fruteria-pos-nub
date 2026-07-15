@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import urllib.parse
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://fruteria-pos-nub.onrender.com"
 
 st.set_page_config(page_title="Frutería POS & Inventario", page_icon="🍏", layout="wide")
 
